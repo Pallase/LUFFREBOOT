@@ -1,0 +1,67 @@
+.summaryToolTipContainer {
+	background-color: white;
+	position: relative;
+}
+
+.summaryToolTip {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.summaryToolTipText {
+	/*padding-top: 50px;*/
+	opacity:0;
+	border-radius: 5px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #0A0A0A;	
+}
+
+.summaryToolTipTextBox{
+	color: white;
+	font-size: 1em;
+	padding: 0 5px 0 12px;	
+	width: 100%;
+	height: 50%;
+	text-align: left;
+	
+}
+
+.summaryToolTipText:hover , .activeBox {
+	display:block;
+	opacity: .8;
+	z-index:1;
+	-webkit-transition: all .1s ease-in-out; /* Safari */
+	 -khtml-transition: all .1s ease-in-out; /* Konqueror HTML */
+	   -moz-transition: all .1s ease-in-out; /* Firefox */
+	    -ms-transition: all .1s ease-in-out; /* Internet Explorer/Edge */
+	        transition: all .1s ease-in-out; /* Non-prefixed version, currently
+												supported by Chrome and Opera */
+}
+
+.summaryToolTipContainer:hover .sumTextHeader {
+	color:white !important;
+}
+
+
+.summaryH3 h3, .sumTextHeader{
+	color: black;
+	text-align: center;
+	font-size:1.5em;
+}
+
+.summaryH3 h3{
+	color: white;
+}
+
+.flexPLOX {
+	font-size: 1.4em !important;
+}
+
+#PLOXBOX .summaryToolTipTextBox {
+	padding-bottom: 17px;
+}
+ 
