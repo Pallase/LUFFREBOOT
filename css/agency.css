@@ -522,13 +522,14 @@ header.masthead .intro-text .intro-heading {
 	padding-bottom: 25px;
 }
 
-#green-leaf{
+#green-leaf, .rohs{
 	color: #BBC007 !important;
 }
 
-#red-scope {
+#red-scope, .redmark {
 	color: #F5403A !important;
 }
+
 
 .contact-luff{
 }
