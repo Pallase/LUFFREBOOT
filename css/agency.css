@@ -175,7 +175,7 @@ img::-moz-selection {
     /*background-color: transparent;*/
   }
   #mainNav .navbar-brand {
-    font-size: 1.75em;
+    font-size: 2em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -430,6 +430,31 @@ header.masthead .intro-text .intro-heading {
 	color: #C04307;
 }
 
+.pad-t35 {
+	padding-top: 35px;
+}
+
+.pad-t20 {
+	padding-top: 20px;
+}
+
+#custom img {
+	padding-top: 0px;
+}
+
+.carousel-caption {
+    top: 0;
+	background: rgba(0,0,0,0.3);
+	height: 60px;
+}
+
+.carousel-caption h3{
+	font-size: 1.2em;
+}
+
+.extra-pdf {
+	display: block;
+	}
 
 /* Contact Modal */
 .contact-modal {
