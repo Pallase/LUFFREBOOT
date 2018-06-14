@@ -164,6 +164,18 @@ img::-moz-selection {
   color: #3F44E7; /*#fed136;*/
 }
 
+.gmap {
+	width: 750px;
+	height: 250px;
+	}
+
+
+@media (max-width: 768px){
+	.map-container{
+		display:none;
+	}
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 10px;
