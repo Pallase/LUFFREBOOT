@@ -438,6 +438,10 @@ header.masthead .intro-text .intro-heading {
   background-color: #212529;
 }
 
+#modal6h2{
+	font-size: 2.75em !important;
+}
+
 #domestic h3, #international h3{
 	color: #C04307;
 }
